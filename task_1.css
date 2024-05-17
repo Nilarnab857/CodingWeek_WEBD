@@ -103,3 +103,18 @@ footer{
     padding:25px;
 }
 
+.container{
+    height:400px;
+    margin: 10;
+    padding:100;
+    box-sizing:border-box;
+    border: 1px solid black;
+    display:grid;
+    gap: 100px;
+    grid-template-columns: 500px 250px 250px;
+}
+.box{
+    border: 2px solid black;
+    padding:12 px;
+    margin: 20px;
+}
