@@ -1,0 +1,105 @@
+
+*{
+    box-sizing:border-box ;
+}
+header{
+    color:black;
+    text-align: left;
+    background-color:grey;
+    padding:25px;
+    
+}
+
+.navbar ul{
+   list-style-type: none;
+   background-color: white;
+   padding: 0px;
+   margin: 0;
+   overflow: hidden;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    color:white;
+    background-color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+
+.navbar li{
+    background-color:white;
+    float: left;
+    
+}
+.status{
+    background-color: lightgray;
+    padding: 10px;
+}
+.status ul{
+    list-style-type: none;
+    background-color:  lightgray;
+    padding: 0px;
+    margin: 0;
+    overflow: hidden;
+ }
+ .status a{
+     color: black;
+     text-decoration: none;
+     padding: 15px;
+     display: block;
+     text-align: center;
+ }
+ 
+ 
+ .status li{
+     background-color:lightgray;
+     float: left;
+     
+ }
+ 
+#NEWS{
+    padding: 10px
+    margin-left 10px;
+
+}
+
+
+
+
+
+aside{
+    width:20%;
+    float: left;
+    padding: 10px;
+    margin: 10;
+}
+
+
+section{
+    width:50%;
+    float: left;
+    margin: 10;
+    padding: 10px;
+}
+
+article{
+    width:30%;
+    float:left;
+    padding: 10px;
+    margin: 10;
+}
+footer{
+    color:black;
+    text-align: center;
+    background-color:grey;
+    padding:25px;
+}
+
