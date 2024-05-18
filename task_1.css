@@ -2,6 +2,12 @@
 *{
     box-sizing:border-box ;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    font: weight 400px;;
+
+}
 header{
     color:white;
     text-align: left;
@@ -442,5 +448,39 @@ footer{
 
 
 }
+
+
+
+
+
+#searchbtn{
+    text-align:center;
+    margin: 1px;
+    padding: 1px;
+    float:right;
+    position: relative;
+    left: 750px;
+    top: 5px;
+
+
+}
+#bolt{
+    text-align:center;
+    margin: 1px;
+    padding: 1px;
+}
+
+#cloud{
+    float: left;
+}
+
+.weatherdate{
+    width: 200px;
+}
+#weatherbar{
+    left: 850px;
+    position: relative;
+}
+   
 
 
